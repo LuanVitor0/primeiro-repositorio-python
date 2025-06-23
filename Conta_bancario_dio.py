@@ -34,8 +34,7 @@ while True:
         login = input("Digite seu nome para login: ")
         if login in Lista_de_cliente:
             print(f"Bem-vindo(a), {login}! Acesso ao sistema bancário liberado.")
-
-            # Sistema Bancário começa aqui:
+            
             menu_banco = """ 
 [1] - Depositar 
 [2] - Sacar 
